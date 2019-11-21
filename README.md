@@ -32,7 +32,7 @@ If you already have python, the command is *python -m http-server*.
 
 ### 3: Using State of Mind
 Go to http://localhost:8000/SCSA.html
-under the tab, connect, enter the URL of your HEG device. This will display the onboard UI for the HEG in an Iframe below. Click on WebDemo, and then click on Start HEG. After you've connected and started your HEG, the data will be fed to our three js renderer under the Play tab. Here you can see your brain activity influence procedurely generated 3d animations! From here you can also save your session data, and then replay it under the replay tab! The replay tab renders the data using canvas.js to produce an interactive chart. State of Mind contains all the individual functions needed, and can easily fit within a larger framework. I developed this method so I could create games for the HEG, and load them into a react native app! This is just a demonstration of the method and its performance.
+under the tab, connect, enter the URL of your HEG device. This will display the onboard UI for the HEG in an Iframe below. Click on WebDemo, and then click on Start HEG. After you've connected and started your HEG, the data will be fed to our three js renderer under the Play tab. Here you can see your brain activity influence procedurely generated 3d animations! I developed this method so I could create games for the HEG in plain Javascript and Three.js, and then load them within a webapp frame work (such as react or angular.! This is just a demonstration of the method and its performance. 
 
 Enjoy!
 
