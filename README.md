@@ -28,7 +28,7 @@ After you have flashed this minor change onto the device's onboard code, you're 
 ### 2: Run Local Webserver
 Clone this repo, and cd into that file using your favorite command line.
 Run your local webserver of choice, I prefer to use python's stock server.
-If you already have python, the command is *python -m http-server*.
+If you already have python, the command is *python -m http.server*.
 
 ### 3: Using State of Mind
 Go to http://localhost:8000/SCSA.html
